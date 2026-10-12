@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Futurons : idées, projets, réalisations et procédés pour construire ensemble un monde plus heureux.">
+  <title>Futurons — Construisons demain ensemble</title>
+  <style>
+    :root { color-scheme: light; --ink: #223b43; --accent: #227f79; --paper: #fbfdfb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; color: var(--ink); background: var(--paper); }
+    header { padding: 1rem clamp(1rem, 5vw, 5rem); background: #ecf5ef; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .logo { font-weight: 800; font-size: 1.45rem; letter-spacing: -.03em; }
+    nav a { color: inherit; text-decoration: none; margin-left: 1.1rem; }
+    a:focus-visible { outline: 3px solid #e3a46d; outline-offset: 4px; }
+    .hero { text-align: center; padding: clamp(4rem, 11vw, 9rem) 1.5rem; background: radial-gradient(ellipse at 20% 25%, #fcebdc, transparent 55%), radial-gradient(ellipse at 85% 70%, #d7f0e8, transparent 55%), #f8f9ef; }
+    h1 { font-size: clamp(2.4rem, 6.4vw, 5rem); line-height: 1.08; max-width: 900px; margin: 0 auto 1.4rem; letter-spacing: -.04em; }
+    .hero p { max-width: 650px; margin: 0 auto 2rem; font-size: 1.15rem; line-height: 1.7; }
+    .button { display: inline-block; padding: .85rem 1.35rem; border-radius: 999px; background: var(--accent); color: white; text-decoration: none; font-weight: 650; }
+    main section { padding: 4rem 1.5rem; max-width: 1050px; margin: auto; }
+    h2 { font-size: clamp(1.7rem, 3.5vw, 2.6rem); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    article { padding: 1.5rem; background: #f0f6f3; border-radius: 1.2rem; }
+    article h3 { margin-top: 0; }
+    article p { line-height: 1.55; }
+    footer { text-align: center; padding: 2rem 1rem; background: #ecf5ef; }
+    @media (max-width: 500px) { nav a { margin: 0 1rem 0 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Futurons ✳</div>
+    <nav aria-label="Navigation principale"><a href="#decouvrir">Découvrir</a><a href="#participer">Participer</a></nav>
+  </header>
+  <div class="hero">
+    <h1>Imaginons et construisons ensemble un monde heureux.</h1>
+    <p>Un espace pour fédérer les idées, projets, réalisations et procédés positifs qui existent déjà ou qui restent à inventer.</p>
+    <a class="button" href="#decouvrir">Explorer les possibles</a>
+  </div>
+  <main>
+    <section id="decouvrir">
+      <h2>Les possibles se partagent</h2>
+      <div class="cards">
+        <article><h3>💡 Idées</h3><p>Des pistes à explorer, à discuter et à enrichir ensemble.</p></article>
+        <article><h3>🌱 Projets</h3><p>Des initiatives en cours auxquelles contribuer.</p></article>
+        <article><h3>✨ Réalisations</h3><p>Des actions concrètes qui montrent ce qui fonctionne.</p></article>
+        <article><h3>🔄 Procédés</h3><p>Des méthodes existantes, reproductibles et utiles au collectif.</p></article>
+      </div>
+    </section>
+    <section id="participer">
+      <h2>Faisons grandir l'intelligence collective</h2>
+      <p>Ce site est une première base. Les fonctionnalités de publication collaborative seront construites progressivement.</p>
+      <a class="button" href="https://github.com/seayousooon/futurons">Voir le projet sur GitHub</a>
+    </section>
+  </main>
+  <footer>Futurons — Construire l'avenir, ensemble.</footer>
+</body>
+</html>
